@@ -4,12 +4,43 @@ title: News
 permalink: /news/
 ---
 
-# News
+## News
 
-- **2026-01-26** — Poster presentation by co-author Julien Zylberman at [QIP 2026](https://qip2026.lu.lv/) (Riga, Latvia).
-- **2026-01-21** — Invited online talk at the Thom Group seminar (Cambridge, UK).
-- **2026-01-15** — Contribution accepted for [GAMM 2026](https://jahrestagung.gamm.org/annual-meeting-2026/96th-annual-meeting-2/) (Stuttgart, Germany).
-- **2025-12-11** — Successfully defended my PhD at Sorbonne Université (Paris, France).
-- **2025-11-18** — Talk at the [AQAM 2025](https://indico.ijclab.in2p3.fr/event/11479/) workshop (Montpellier, France).
-- **2025-08-27** — Poster presentation at [SEEQA 2025](https://conference.seeqa.org/) (Oxford, UK).
-- **2025-07-05** — Invited talk at the [EMC2](https://erc-emc2.eu/) workshop (Roscoff, France).
+<div class="news-list">
+
+<div class="news-item">
+  <span class="news-date">Jan 2026</span>
+  <span class="news-text">Poster presentation by co-author J. Zylberman at <a href="https://qip2026.lu.lv/" target="_blank">QIP 2026</a> — Riga, Latvia.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Jan 2026</span>
+  <span class="news-text">Invited online talk at the Thom Group seminar — Cambridge, UK.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Jan 2026</span>
+  <span class="news-text">Contribution accepted at <a href="https://jahrestagung.gamm.org/annual-meeting-2026/96th-annual-meeting-2/" target="_blank">GAMM 2026</a> — Stuttgart, Germany.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Dec 2025</span>
+  <span class="news-text">Successfully defended my PhD at Sorbonne Université — Paris, France.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Nov 2025</span>
+  <span class="news-text">Talk at the <a href="https://indico.ijclab.in2p3.fr/event/11479/" target="_blank">AQAM 2025</a> workshop — Montpellier, France.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Aug 2025</span>
+  <span class="news-text">Poster presentation at <a href="https://conference.seeqa.org/" target="_blank">SEEQA 2025</a> — Oxford, UK.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Jul 2025</span>
+  <span class="news-text">Invited talk at the <a href="https://erc-emc2.eu/" target="_blank">EMC2</a> workshop — Roscoff, France.</span>
+</div>
+
+</div>
