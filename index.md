@@ -7,7 +7,7 @@ title: About
   <div class="intro-text">
     <h1>César Feniou</h1>
     <p class="intro-meta">
-      <span class="intro-position">Quantum Algorithm Research Lead · <a href="https://www.qubit-pharmaceuticals.com/" target="_blank">Qubit Pharmaceuticals</a></span><br>
+      <span class="intro-position">Lead Quantum Algorithm Research · <a href="https://www.qubit-pharmaceuticals.com/" target="_blank">Qubit Pharmaceuticals</a></span><br>
       <span class="intro-location">Paris, France</span>
     </p>
     <p class="intro-contact">
