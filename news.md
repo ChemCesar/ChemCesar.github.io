@@ -10,7 +10,7 @@ permalink: /news/
 
 <div class="news-item">
   <span class="news-date">Apr 2026</span>
-  <span class="news-text">Talk at the <em>Telluride Workshop on Quantum Computing for Quantum Chemistry, Molecular Dynamics, and Beyond</em> (org. A. Izmaylov & Y. Zhang) — Telluride, CO. <a href="{{ '/assets/talks/telluride_beamer.pdf' | relative_url }}" target="_blank"><em>Chemistry-Aware Quantum Algorithms and Efficient Quantum Primitives</em></a>.</span>
+  <span class="news-text">Talk at the Telluride Science & Innovation Center, Workshop on <em>Quantum Computing for Quantum Chemistry, Molecular Dynamics, and Beyond</em> (org. A. Izmaylov & Y. Zhang) — Telluride, CO. <a href="{{ '/assets/talks/telluride_beamer.pdf' | relative_url }}" target="_blank"><em>Chemistry-Aware Quantum Algorithms and Efficient Quantum Primitives</em></a>.</span>
 </div>
 
 <div class="news-item">
@@ -21,6 +21,11 @@ permalink: /news/
 <div class="news-item">
   <span class="news-date">Mar 2026</span>
   <span class="news-text">Talk at <a href="https://jahrestagung.gamm.org/annual-meeting-2026/96th-annual-meeting-2/" target="_blank">GAMM 2026</a> — Stuttgart, Germany. <em>Real-space chemistry on quantum computers: adaptive grids and transcorrelated Hamiltonian</em>.</span>
+</div>
+
+<div class="news-item">
+  <span class="news-date">Feb 2026</span>
+  <span class="news-text">Invited talk at joint aQa and QC2 Seminar — Leiden, Nederlands.</span>
 </div>
 
 <div class="news-item">
