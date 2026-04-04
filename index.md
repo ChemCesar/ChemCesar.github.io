@@ -21,7 +21,7 @@ title: About
     </div>
   </div>
   <div class="intro-photo">
-    <img src="{{ '/assets/profile_pic.jpeg' | relative_url }}" alt="César Feniou">
+    <img src="{{ '/assets/profile_pic.png' | relative_url }}" alt="César Feniou">
   </div>
 </div>
 
