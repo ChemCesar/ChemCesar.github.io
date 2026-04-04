@@ -10,7 +10,7 @@ permalink: /news/
 
 <div class="news-item">
   <span class="news-date">Apr 2026</span>
-  <span class="news-text">Talk at the Telluride Science & Innovation Center, Workshop on <em>Quantum Computing for Quantum Chemistry, Molecular Dynamics, and Beyond</em> (org. A. Izmaylov & Y. Zhang) — Telluride, CO. <a href="{{ '/assets/talks/telluride_beamer.pdf' | relative_url }}" target="_blank"><em>Chemistry-Aware Quantum Algorithms and Efficient Quantum Primitives</em></a>.</span>
+  <span class="news-text">Invited talk at the Telluride Science & Innovation Center, Workshop on <em>Quantum Computing for Quantum Chemistry, Molecular Dynamics, and Beyond</em> (org. A. Izmaylov & Y. Zhang) — Telluride, CO. <a href="{{ '/assets/talks/telluride_beamer.pdf' | relative_url }}" target="_blank"><em>Chemistry-Aware Quantum Algorithms and Efficient Quantum Primitives</em></a>.</span>
 </div>
 
 <div class="news-item">
