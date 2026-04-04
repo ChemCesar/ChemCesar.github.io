@@ -5,16 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap');
 
 :root {
-  --bg:       #080c10;
-  --panel:    #0d1219;
-  --surface:  #111820;
+  --bg:       #1a1f1e;          /* dark grey-green page background */
+  --panel:    #1f2624;
+  --surface:  #252e2b;          /* slightly lighter green-grey for content panel */
   --text:     #dde5ef;
-  --muted:    #6b7d90;
-  --faint:    #3a4a5a;
+  --muted:    #7a9090;
+  --faint:    #445555;
   --link:     #7ec8f0;
   --accent:   #4fa3d4;
   --border:   rgba(255,255,255,0.07);
-  --border-hover: rgba(255,255,255,0.14);
+  --border-hover: rgba(255,255,255,0.13);
   --radius:   12px;
   --font: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
   --mono: 'DM Mono', ui-monospace, monospace;
@@ -44,7 +44,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(8,12,16,0.88);
+  background: rgba(26,31,30,0.90);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -139,34 +139,68 @@ a { color: var(--link); }
 .intro-text h1 { margin-bottom: 0.5rem; }
 
 .intro-meta {
-  color: var(--muted);
-  font-size: 0.93rem;
-  line-height: 1.7;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.75;
 }
-.intro-meta a {
+
+.intro-position {
+  font-size: 0.97rem;
+  color: var(--text);
+}
+.intro-position a {
   color: var(--link);
   border-bottom: none !important;
 }
 
+.intro-location {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+/* Mail vignette */
+.intro-contact {
+  margin: 0.6rem 0 1rem;
+}
+.mail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.88rem;
+  color: var(--muted) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-hover);
+  border-radius: 7px;
+  padding: 4px 10px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.mail-link:hover {
+  color: var(--text) !important;
+  border-color: var(--accent);
+}
+.mail-icon { font-size: 0.85rem; color: var(--faint); }
+
+/* Profile photo — portrait */
 .intro-photo { flex: 0 0 auto; }
 .intro-photo img {
   display: block;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 155px;
   object-fit: cover;
+  object-position: center top;
   border-radius: var(--radius);
   border: 1px solid var(--border-hover);
-  filter: grayscale(15%);
+  filter: grayscale(10%);
 }
 
 @media (max-width: 600px) {
-  .intro { flex-direction: column-reverse; align-items: center; text-align: center; gap: 1.5rem; }
-  .intro-photo img { width: 120px; height: 120px; }
+  .intro { flex-direction: column-reverse; align-items: center; gap: 1.5rem; }
+  .intro-photo img { width: 100px; height: 130px; }
 }
 
 /* Tags / pills */
-.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 1rem 0 1.5rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0.8rem 0 0; }
 .tag {
   font-family: var(--mono);
   font-size: 11px;
@@ -218,9 +252,6 @@ a { color: var(--link); }
 }
 .pub-row:last-child { border-bottom: none; }
 
-.abbr {
-  padding-top: 2px;
-}
 .badge {
   display: inline-block;
   font-family: var(--mono);
@@ -255,19 +286,19 @@ a { color: var(--link); }
   font-size: 11px;
   color: var(--muted);
   text-decoration: none;
-  border: 1px solid var(--border-hover);
+  border: 1px solid var(--border-hover) !important;
   border-bottom: 1px solid var(--border-hover) !important;
   border-radius: 5px;
   padding: 2px 8px;
   transition: color 0.15s, border-color 0.15s;
 }
-.pub-links a:hover { color: var(--link); border-color: var(--accent); }
+.pub-links a:hover { color: var(--link); border-color: var(--accent) !important; }
 
 /* ---- News ---- */
 .news-list { display: flex; flex-direction: column; gap: 0; }
 .news-item {
   display: grid;
-  grid-template-columns: 90px 1fr;
+  grid-template-columns: 72px 1fr;
   gap: 0 16px;
   padding: 14px 0;
   border-bottom: 1px solid var(--border);
@@ -283,7 +314,6 @@ a { color: var(--link); }
 .news-text { font-size: 0.93rem; line-height: 1.6; }
 
 /* ---- CV ---- */
-.cv-section { margin-bottom: 2rem; }
 .cv-entry {
   display: grid;
   grid-template-columns: 110px 1fr;
