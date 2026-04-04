@@ -8,6 +8,18 @@ permalink: /publications/
 
 <div class="pub-list">
 
+<div class="pub-row pub-new">
+  <div class="abbr"><span class="badge badge-new">new · arXiv</span></div>
+  <div>
+    <div class="pub-title">Logarithmic-depth quantum state preparation of polynomials</div>
+    <div class="pub-authors">B. Claudon, A. Lucas, J.-P. Piquemal, <strong>C. Feniou</strong>, J. Zylberman</div>
+    <div class="pub-authors"><em>arXiv:2603.16527</em> (2026)</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2603.16527" target="_blank">arXiv</a>
+    </div>
+  </div>
+</div>
+
 <div class="pub-row">
   <div class="abbr"><span class="badge">Nat. Commun.</span></div>
   <div>
@@ -17,6 +29,18 @@ permalink: /publications/
     <div class="pub-links">
       <a href="https://www.nature.com/articles/s41467-024-50065-x" target="_blank">paper</a>
       <a href="https://arxiv.org/abs/2312.11832" target="_blank">arXiv</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="abbr"><span class="badge">arXiv</span></div>
+  <div>
+    <div class="pub-title">Real-space chemistry on quantum computers: a fault-tolerant algorithm with adaptive grids and transcorrelated extension</div>
+    <div class="pub-authors"><strong>C. Feniou</strong>, C. Cherfan, J. Zylberman, B. Claudon, J.-P. Piquemal, E. Giner</div>
+    <div class="pub-authors"><em>arXiv:2507.20583</em> (2025)</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2507.20583" target="_blank">arXiv</a>
     </div>
   </div>
 </div>
@@ -34,13 +58,13 @@ permalink: /publications/
 </div>
 
 <div class="pub-row">
-  <div class="abbr"><span class="badge">J. Phys. Chem.</span></div>
+  <div class="abbr"><span class="badge">Sci. Rep.</span></div>
   <div>
-    <div class="pub-title">Sparse quantum state preparation for strongly correlated systems</div>
-    <div class="pub-authors"><strong>C. Feniou</strong>, O. Adjoua, B. Claudon, J. Zylberman, E. Giner, J.-P. Piquemal</div>
-    <div class="pub-authors"><em>J. Phys. Chem. Letters</em> 15, 3197–3205 (2024)</div>
+    <div class="pub-title">Greedy gradient-free adaptive variational quantum algorithms on a noisy intermediate scale quantum computer</div>
+    <div class="pub-authors"><strong>C. Feniou</strong>, M. Hassan, B. Claudon, A. Courtat, O. Adjoua, Y. Maday, J.-P. Piquemal</div>
+    <div class="pub-authors"><em>Scientific Reports</em> 15, 1–18 (2025)</div>
     <div class="pub-links">
-      <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.3c03531" target="_blank">paper</a>
+      <a href="https://www.nature.com/articles/s41598-025-85534-2" target="_blank">paper</a>
     </div>
   </div>
 </div>
@@ -49,12 +73,6 @@ permalink: /publications/
 
 <hr>
 
-## All publications
-
-<p class="intro-meta" style="margin-bottom: 1.2rem;">
-  Full list also on <a href="https://scholar.google.com/citations?user=atHK9rYAAAAJ&hl" target="_blank">Google Scholar</a>.
+<p class="intro-meta">
+  All publications available on <a href="https://scholar.google.com/citations?user=atHK9rYAAAAJ&hl" target="_blank">Google Scholar</a>.
 </p>
-
-<div class="pub-list">
-  {% bibliography --group_by none --sort_by year --order descending %}
-</div>
