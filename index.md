@@ -7,17 +7,22 @@ title: About
   <div class="intro-text">
     <h1>César Feniou</h1>
     <p class="intro-meta">
-      Quantum Algorithm Research Lead · Qubit Pharmaceuticals<br>
-      <a href="mailto:cesarf@qubit-pharmaceuticals.com">cesarf@qubit-pharmaceuticals.com</a><br>
-      Paris, France
+      <span class="intro-position">Quantum Algorithm Research Lead · <a href="https://www.qubit-pharmaceuticals.com/" target="_blank">Qubit Pharmaceuticals</a></span><br>
+      <span class="intro-location">Paris, France</span>
+    </p>
+    <p class="intro-contact">
+      <a href="mailto:cesar.feniou@gmail.com" class="mail-link">
+        <span class="mail-icon"><i class="fa-solid fa-envelope"></i></span>
+        cesar.feniou@gmail.com
+      </a>
     </p>
     <div class="tags">
+      <span class="tag">quantum circuits</span>
       <span class="tag">quantum algorithms</span>
-      <span class="tag">electronic structure</span>
-      <span class="tag">quantum chemistry</span>
-      <span class="tag">gate-level compilation</span>
-      <span class="tag">QPE</span>
-      <span class="tag">VQE</span>
+      <span class="tag">electronic structure theory</span>
+      <span class="tag">quantum many-body problems</span>
+      <span class="tag">quantum linear algebra</span>
+      <span class="tag">fault-tolerant quantum computing</span>
     </div>
   </div>
   <div class="intro-photo">
@@ -29,13 +34,16 @@ title: About
 
 ## Research
 
-I work on the development of quantum algorithms for quantum many-body problems, with a focus on electronic structure. My interests span multiple levels of the quantum computing stack — from high-level problem formulations and Hamiltonian representations down to gate-level circuit design and primitive compilation. Target applications are in materials science and pharmaceutical research.
+I work on quantum algorithms for quantum many-body problems, with an eye toward applications in chemistry, including materials science and drug discovery. My interests span multiple levels of the quantum computing stack: from high-level problem representations down to low-level quantum circuit optimisation. 
 
 ## Background
 
 - **Ph.D. in Quantum Chemistry** · Sorbonne Université (2022–2025)  
   *Quantum Algorithms for First-Principles Quantum Chemistry*  
   Advisors: Prof. Jean-Philip Piquemal, Dr. Emmanuel Giner
+
+- **MBA** · Collège des Ingénieurs, Paris (2022–2025)  
+  *Science and Management*
 
 - **M.S. in Chemistry** · École Normale Supérieure Paris-Saclay (2020–2022)
 
