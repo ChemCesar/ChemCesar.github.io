@@ -199,7 +199,12 @@ a { color: var(--link); }
 }
 
 /* Tags / pills */
-.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0.8rem 0 0; }
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0.8rem 0 0;    /* was adding space below */
+}
 .tag {
   font-family: var(--mono);
   font-size: 11px;
