@@ -22,7 +22,7 @@ permalink: /news/
 <div class="news-item">
   <span class="news-date">Mar 2026</span>
   <span class="news-text">Talk at <a href="https://jahrestagung.gamm.org/annual-meeting-2026/96th-annual-meeting-2/" target="_blank">GAMM 2026</a> — Stuttgart, Germany. <br>
-    Talk title: <em>Real-space chemistry on quantum omputers: adaptive grids and transcorrelated Hamiltonian</em>.</span>
+    Talk title: <em>Real-space chemistry on quantum computers: adaptive grids and transcorrelated Hamiltonian</em>.</span>
 </div>
 
 <div class="news-item">
