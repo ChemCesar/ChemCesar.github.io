@@ -269,6 +269,21 @@ a { color: var(--link); }
   letter-spacing: 0.04em;
 }
 
+.pub-new {
+  background: rgba(79,163,212,0.04);
+  border-radius: 10px;
+  padding-left: 12px;
+  margin-left: -12px;
+  border-left: 2px solid var(--accent);
+  border-bottom: 1px solid var(--border);
+}
+
+.badge-new {
+  color: #5ecfa0;
+  background: rgba(94,207,160,0.1);
+  border-color: rgba(94,207,160,0.3);
+}
+
 .pub-title {
   font-size: 0.97rem;
   font-weight: 500;
