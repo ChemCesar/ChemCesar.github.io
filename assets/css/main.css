@@ -164,20 +164,19 @@ a { color: var(--link); }
 .mail-link {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  gap: 6px;
   font-size: 0.88rem;
   color: var(--muted) !important;
   text-decoration: none !important;
   border-bottom: none !important;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid var(--border-hover);
-  border-radius: 7px;
-  padding: 4px 10px;
-  transition: color 0.15s, border-color 0.15s;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  transition: color 0.15s;
 }
 .mail-link:hover {
-  color: var(--text) !important;
-  border-color: var(--accent);
+  color: var(--link) !important;
 }
 .mail-icon { font-size: 0.85rem; color: var(--faint); }
 
