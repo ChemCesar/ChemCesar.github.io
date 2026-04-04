@@ -1,48 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <title>{{ page.title | default: site.title }}</title>
 
-    <meta name="description" content="{{ site.description }}" />
-  
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
 
-    <!-- Font Awesome (FOR ICONS) -->
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-..."
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="{{ '/' | relative_url }}">cesar-feniou</a>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}"              {% if page.url == "/" %}class="active"{% endif %}>about</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications' %}class="active"{% endif %}>publications</a>
+        <a href="{{ '/news/' | relative_url }}"         {% if page.url contains '/news' %}class="active"{% endif %}>news</a>
+        <a href="{{ '/cv/' | relative_url }}"           {% if page.url contains '/cv' %}class="active"{% endif %}>cv</a>
+      </nav>
+    </div>
+  </header>
 
-  </head>
-
-  <body>
-    <header class="site-header">
-      <div class="container">
-          <a class="brand" href="{{ '/' | relative_url }}" aria-label="Home"></a>
-        <nav class="nav">
-          <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>About</a>
-          <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications' %}class="active"{% endif %}>Publications</a>
-          <a href="{{ '/news/' | relative_url }}" {% if page.url contains '/news' %}class="active"{% endif %}>News</a>
-          <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv' %}class="active"{% endif %}>CV</a>
-        </nav>
-      </div>
-    </header>
-
-    <main class="container">
-      <div class="content">
-        {{ content }}
-      </div>
-    </main>
+  <main class="container">
+    <div class="content">
+      {{ content }}
+    </div>
+  </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
       {% include social-icons.html %}
+      <span class="footer-copy">© {{ 'now' | date: "%Y" }} César Feniou</span>
     </div>
   </footer>
-  </body>
+
+</body>
 </html>
