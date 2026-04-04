@@ -184,8 +184,8 @@ a { color: var(--link); }
 .intro-photo { flex: 0 0 auto; }
 .intro-photo img {
   display: block;
-  width: 120px;
-  height: 155px;
+  width: 130px;
+  height: 170px;
   object-fit: cover;
   object-position: center 10%;
   border-radius: var(--radius);
