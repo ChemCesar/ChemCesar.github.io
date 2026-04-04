@@ -58,6 +58,19 @@ permalink: /publications/
 </div>
 
 <div class="pub-row">
+  <div class="abbr"><span class="badge">J. Phys. Chem.</span></div>
+  <div>
+    <div class="pub-title">Sparse quantum state preparation for strongly correlated systems</div>
+    <div class="pub-authors"><strong>C. Feniou</strong>, O. Adjoua, B. Claudon, J. Zylberman, E. Giner, J.-P. Piquemal</div>
+    <div class="pub-authors"><em>J. Phys. Chem. Letters</em> 15, 3197–3205 (2024)</div>
+    <div class="pub-links">
+      <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.3c03531" target="_blank">paper</a>
+      <a href="https://pubs.acs.org/toc/jpclcd/15/11" target="_blank">cover</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-row">
   <div class="abbr"><span class="badge">Sci. Rep.</span></div>
   <div>
     <div class="pub-title">Greedy gradient-free adaptive variational quantum algorithms on a noisy intermediate scale quantum computer</div>
