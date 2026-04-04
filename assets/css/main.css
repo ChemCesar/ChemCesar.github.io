@@ -187,7 +187,7 @@ a { color: var(--link); }
   width: 120px;
   height: 155px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 10%;
   border-radius: var(--radius);
   border: 1px solid var(--border-hover);
   filter: grayscale(10%);
