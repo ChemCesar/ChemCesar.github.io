@@ -1,30 +1,27 @@
-<div class="row">
-  <div class="col-sm-2 abbr">
-    {% if entry.year %}
+---
+---
+<div class="pub-row">
+  <div class="abbr">
+    {% if entry.journal %}
+      <span class="badge">{{ entry.journal | truncatewords: 2, "" }}</span>
+    {% elsif entry.booktitle %}
+      <span class="badge">{{ entry.booktitle | truncatewords: 2, "" }}</span>
+    {% else %}
       <span class="badge">{{ entry.year }}</span>
     {% endif %}
   </div>
-
-  <div id="{{ entry.key }}" class="col-sm-8">
-    <div class="title" style="font-weight: bold; color: var(--text);">{{ entry.title }}</div>
-    
-    <div class="author">
-      {{ entry.author | replace: 'Feniou, César', '<strong>Feniou, C.</strong>' | replace: 'César Feniou', '<strong>Feniou, C.</strong>' }}
-    </div>
-
-    <div class="periodical">
-      <em>{{ entry.journal }}</em>
-      {% if entry.volume %} {{ entry.volume }}{% endif %}
-      {% if entry.pages %} ({{ entry.pages }}){% endif %}
-    </div>
-
-    <div class="links">
-      {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.8rem; color: var(--link);">DOI</a>
-      {% endif %}
-      {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 0.8rem; color: var(--link);">arXiv</a>
-      {% endif %}
+  <div>
+    <div class="pub-title">{{ entry.title }}</div>
+    <div class="pub-authors">{{ entry.author | replace: "Feniou, César", "<strong>C. Feniou</strong>" | replace: "Feniou, C{\'e}sar", "<strong>C. Feniou</strong>" }}</div>
+    {% if entry.journal %}
+      <div class="pub-authors"><em>{{ entry.journal }}</em>{% if entry.volume %} {{ entry.volume }}{% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %} ({{ entry.year }})</div>
+    {% elsif entry.booktitle %}
+      <div class="pub-authors"><em>{{ entry.booktitle }}</em> ({{ entry.year }})</div>
+    {% endif %}
+    <div class="pub-links">
+      {% if entry.url %}<a href="{{ entry.url }}" target="_blank">paper</a>{% endif %}
+      {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>{% endif %}
+      {% if entry.doi %}<a href="https://doi.org/{{ entry.doi }}" target="_blank">doi</a>{% endif %}
     </div>
   </div>
 </div>
