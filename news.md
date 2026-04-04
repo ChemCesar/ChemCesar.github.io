@@ -32,7 +32,7 @@ permalink: /news/
 
 <div class="news-item">
   <span class="news-date">Jan 2026</span>
-  <span class="news-text">Poster presentation by co-author J. Zylberman at <a href="https://qip2026.lu.lv/" target="_blank">QIP 2026</a> — Riga, Latvia.</span>
+  <span class="news-text">Poster presentation by co-author Julien Zylberman at <a href="https://qip2026.lu.lv/" target="_blank">QIP 2026</a> — Riga, Latvia.</span>
 </div>
 
 <div class="news-item">
