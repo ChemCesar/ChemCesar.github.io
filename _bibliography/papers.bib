@@ -1,71 +1,115 @@
-@article{feniou2023overlap,
-  title={Overlap-ADAPT-VQE: practical quantum chemistry on quantum computers via overlap-guided compact Ans{\"a}tze},
-  author={Feniou, C{\'e}sar and Hassan, Muhammad and Traor{\'e}, Diata and Giner, Emmanuel and Maday, Yvon and Piquemal, Jean-Philip},
-  journal={https://www.nature.com/articles/s42005-023-01312-y},
-  year={2023}
-}
-
-@article{feniou2024sparse,
-  title={Sparse quantum state preparation for strongly correlated systems},
-  author={Feniou, C{\'e}sar and Adjoua, Olivier and Claudon, Baptiste and Zylberman, Julien and Giner, Emmanuel and Piquemal, Jean-Philip},
-  journal={The Journal of Physical Chemistry Letters},
-  volume={15},
-  number={11},
-  pages={3197--3205},
-  year={2024},
-  publisher={American Chemical Society}
-}
-
 @article{claudon2024polylogarithmic,
-  title={Polylogarithmic-depth controlled-NOT gates without ancilla qubits},
-  author={Claudon, Baptiste and Zylberman, Julien and Feniou, C{\'e}sar and Debbasch, Fabrice and Peruzzo, Alberto and Piquemal, Jean-Philip},
-  journal={Nature Communications},
-  volume={15},
-  number={1},
-  pages={5886},
-  year={2024},
-  publisher={Nature Publishing Group UK London}
+  author = {Claudon, Baptiste and Zylberman, Julien and Feniou, C{\'e}sar and Debbasch, Fabrice and Peruzzo, Alberto and Piquemal, Jean-Philip},
+  journal = {Nature Communications},
+  number = {1},
+  pages = {5886},
+  publisher = {Nature Publishing Group UK London},
+  title = {Polylogarithmic-depth controlled-NOT gates without ancilla qubits},
+  volume = {15},
+  year = {2024}
 }
 
-@article{traore2024shortcut,
-  title={Shortcut to chemically accurate quantum computing via density-based basis-set correction},
-  author={Traore, Diata and Adjoua, Olivier and Feniou, C{\'e}sar and Lygatsika, Ioanna-Maria and Maday, Yvon and Posenitskiy, Evgeny and Hammernik, Kerstin and Peruzzo, Alberto and Toulouse, Julien and Giner, Emmanuel and others},
-  journal={Communications Chemistry},
-  volume={7},
-  number={1},
-  pages={269},
-  year={2024},
-  publisher={Nature Publishing Group UK London}
+@article{feniou2023overlap,
+  author = {Feniou, C{\'e}sar and Hassan, Muhammad and Traor{\'e}, Diata and Giner, Emmanuel and Maday, Yvon and Piquemal, Jean-Philip},
+  journal = {https://www.nature.com/articles/s42005-023-01312-y},
+  title = {Overlap-ADAPT-VQE: practical quantum chemistry on quantum computers via overlap-guided compact Ans{\"a}tze},
+  year = {2023}
 }
 
 @inproceedings{feniou2024refining,
-  title={Refining building blocks in quantum algorithms for electronic structure computations},
-  author={Feniou, C{\'e}sar},
-  booktitle={Quantum computing for quantum chemistry (QC4QC)},
-  year={2024}
+  author = {Feniou, C{\'e}sar},
+  booktitle = {Quantum computing for quantum chemistry (QC4QC)},
+  title = {Refining building blocks in quantum algorithms for electronic structure computations},
+  year = {2024}
+}
+
+@article{feniou2024sparse,
+  author = {Feniou, C{\'e}sar and Adjoua, Olivier and Claudon, Baptiste and Zylberman, Julien and Giner, Emmanuel and Piquemal, Jean-Philip},
+  journal = {The Journal of Physical Chemistry Letters},
+  number = {11},
+  pages = {3197--3205},
+  publisher = {American Chemical Society},
+  title = {Sparse quantum state preparation for strongly correlated systems},
+  volume = {15},
+  year = {2024}
 }
 
 @article{feniou2025greedy,
-  title={Greedy gradient-free adaptive variational quantum algorithms on a noisy intermediate scale quantum computer},
-  author={Feniou, C{\'e}sar and Hassan, Muhammad and Claudon, Baptiste and Courtat, Axel and Adjoua, Olivier and Maday, Yvon and Piquemal, Jean-Philip},
-  journal={Scientific Reports},
-  volume={15},
-  number={1},
-  pages={1--18},
-  year={2025},
-  publisher={Nature Publishing Group}
+  author = {Feniou, C{\'e}sar and Hassan, Muhammad and Claudon, Baptiste and Courtat, Axel and Adjoua, Olivier and Maday, Yvon and Piquemal, Jean-Philip},
+  journal = {Scientific Reports},
+  number = {1},
+  pages = {1--18},
+  publisher = {Nature Publishing Group},
+  title = {Greedy gradient-free adaptive variational quantum algorithms on a noisy intermediate scale quantum computer},
+  volume = {15},
+  year = {2025}
 }
 
 @article{feniou2025real,
-  title={Real-Space Chemistry on Quantum Computers: A Fault-Tolerant Algorithm with Adaptive Grids and Transcorrelated Extension},
-  author={Feniou, C{\'e}sar and Cherfan, Christopher and Zylberman, Julien and Claudon, Baptiste and Piquemal, Jean-Philip and Giner, Emmanuel},
-  journal={arXiv preprint arXiv:2507.20583},
-  year={2025}
+  author = {Feniou, C{\'e}sar and Cherfan, Christopher and Zylberman, Julien and Claudon, Baptiste and Piquemal, Jean-Philip and Giner, Emmanuel},
+  journal = {arXiv preprint arXiv:2507.20583},
+  title = {Real-Space Chemistry on Quantum Computers: A Fault-Tolerant Algorithm with Adaptive Grids and Transcorrelated Extension},
+  year = {2025}
+}
+
+@article{highperformancequantumemulation2026,
+  abstract = {The strategic demand for quantum hardware currently outpaces the availability of near-term devices, necessitating high-performance software emulators to validate novel protocols. We introduce Hyperion, a massively parallel, GPU-accelerated quantum emulator architected to bypass the classical memory walls inherent in strongly correlated quantum chemistry simulations. Hyperion leverages custom-optimized Sparse Matrix-Sparse Vector (SpMspV) kernels to natively accelerate exact matrix-vector multiplications, enabling strictly accurate State-Vector (SV) ADAPT-VQE simulations for up to 32 qubits on multi-node platforms. To scale beyond this hardware limit, we address the trade-off in pure Matrix Product State (MPS) emulators, where standard compression yields severe truncation errors and strict compression triggers intractable tensor rank explosions. We propose a novel partitioned emulation, namely the SV-MPS strategy: by routing non-interacting terms into an exact sparse SV core and delegating interacting terms to the MPS engine, this approach achieves emulation of 36 to 40 qubits with controlled approximations. This partitioning significantly reduces GPU resource requirements while maintaining robust accuracy across ADAPT-VQE iterations. Ultimately, Hyperion offers a high-fidelity platform dedicated to the development of new quantum algorithms for chemistry, enabling the modeling of realistic chemical systems at accuracies approaching the exact Full Configuration Interaction (FCI) / Complete Basis Set (CBS) limit.},
+  author = {Olivier Adjoua and Siwar Badreddine and César Feniou and Igor Chollet and Diata Traore and Guillaume Michel and Jean-Philip Piquemal},
+  journal = {arXiv preprint arXiv:2604.01176},
+  title = {High Performance Quantum Emulation for Chemistry Applications with Hyperion},
+  url = {https://arxiv.org/abs/2604.01176},
+  year = {2026}
+}
+
+@article{logarithmicdepthquantumstatepreparation2026,
+  abstract = {Quantum state preparation is a central primitive in many quantum algorithms, yet it is generally resource intensive, with efficient constructions known only for structured families of states. This work introduces a method for preparing quantum states whose amplitudes are given by a degree polynomial, using circuits with logarithmic depth in the number  of qubits and only  ancilla qubits, improving previous approaches that required linear-depth circuits. The construction first relies on a block-encoding of an affine diagonal operator based on its Pauli-basis decomposition, which involves only  terms. A modified linear-combination-of-unitaries (LCU) technique is introduced to implement this decomposition in logarithmic depth, together with a novel circuit for the EXACT-one oracle that flags basis states in which exactly one qubit is in the state . It then uses a generalized quantum eigenvalue transformation (GQET) to promote this affine operator to an arbitrary degree polynomial. Theoretical analysis and numerical simulations are reported along with a proof-of-principle implementation on a trapped-ion quantum processor using  qubits and more than  primitive quantum gates. Because polynomial approximations are ubiquitous in scientific computing, this construction provides a scalable and resource-efficient approach to quantum state preparation, further improving the potential of quantum algorithms in fields such as chemistry, physics, engineering, and finance.},
+  author = {Baptiste Claudon and Alexis Lucas and Jean-Philip Piquemal and César Feniou and Julien Zylberman},
+  journal = {arXiv preprint arXiv:2603.16527},
+  title = {Logarithmic-depth quantum state preparation of polynomials},
+  url = {https://arxiv.org/abs/2603.16527},
+  year = {2026}
+}
+
+@article{overlapadaptvqepracticalquantumchemistry2023,
+  abstract = {ADAPT-VQE is a robust algorithm for hybrid quantum-classical simulations of quantum chemical systems on near-term quantum computers. While its iterative process systematically reaches the ground state energy, practical implementations of ADAPT-VQE are sensitive to local energy minima, leading to over-parameterized ansätze. We introduce the Overlap-ADAPT-VQE to grow wave-functions by maximizing their overlap with any intermediate target wave-function that already captures some electronic correlation. By avoiding building the ansatz in the energy landscape strewn with local minima, the Overlap-ADAPT-VQE produces ultra-compact ansätze suitable for high-accuracy initialization of a new ADAPT procedure. Significant advantages over ADAPT-VQE are observed for strongly correlated systems including substantial savings in circuit depth. Since this compression strategy can also be initialized with …},
+  author = {César Feniou and Muhammad Hassan and Diata Traoré and Emmanuel Giner and Yvon Maday and Jean-Philip Piquemal},
+  journal = {https://www.nature.com/articles/s42005-023-01312-y},
+  title = {Overlap-ADAPT-VQE: practical quantum chemistry on quantum computers via overlap-guided compact Ansätze},
+  url = {https://www.nature.com/articles/s42005-023-01312-y},
+  year = {2023}
+}
+
+@article{quantumalgorithmsforfirstprinciples2025,
+  abstract = {The many-electron Schrödinger equation governs the non-relativistic evolution of quantum systems such as electrons, atoms, and molecules. Ab initio quantum chemistry consists in finding approximate solutions to this equation in order to predict molecular properties such as bond lengths, vibrational spectra, and reaction mechanisms. Despite the tremendous progress in computational power, achieving chemical accuracy (an energy error below 1 kcal/mol) remains exponentially costly for classical algorithms as the system size increases. This limitation has led to considering quantum computing as an alternative for molecular simulation, since quantum computers obey the same physical principles as the systems they aim to simulate. It has been shown that, under certain conditions, the molecular Schrödinger equation can be solved in polynomial time on a quantum computer, thus enabling, in principle, an exponential speedup over classical methods. The realisation of this advantage remains an open challenge and requires progress both in hardware (improving processor stability) and in algorithms (reducing resource requirements). The latter constitutes the main objective of this thesis. Three fundamental challenges are identified: establishing an efficient mapping and discretisation between the electronic structure problem and qubits; designing algorithms to prepare accurate approximations of the molecular ground state; and decomposing quantum operations into implementable circuits with minimal cost. The first part addresses the short-term regime, where the limited number of qubits and high noise levels constrain the number of executable …},
+  author = {César Feniou},
+  title = {Quantum algorithms for first-principles quantum chemistry},
+  url = {https://theses.hal.science/tel-05576117/},
+  year = {2025}
+}
+
+@article{theconvergencefrontierintegrating2026,
+  abstract = {Integrating quantum mechanics into drug discovery marks a decisive shift from empirical trial-and-error toward quantitative precision. However, the prohibitive cost of ab initio molecular dynamics has historically forced a compromise between chemical accuracy and computational scalability. This paper identifies the convergence of High-Performance Computing (HPC), Machine Learning (ML), and Quantum Computing (QC) as the definitive solution to this bottleneck. While ML foundation models, such as FeNNix-Bio1, enable quantum-accurate simulations, they remain tethered to the inherent limits of classical data generation. We detail how High-Performance Quantum Computing (HPQC), utilizing hybrid QPU-GPU architectures, will serve as the ultimate accelerator for quantum chemistry data. By leveraging Hilbert space mapping, these systems can achieve true chemical accuracy while bypassing the heuristics of classical approximations. We show how this tripartite convergence optimizes the drug discovery pipeline, spanning from initial system preparation to ML-driven, high-fidelity simulations. Finally, we position quantum-enhanced sampling as the beyond GPU frontier for modeling reactive cellular systems and pioneering next-generation materials.},
+  author = {Narjes Ansari and César Feniou and Nicolaï Gouraud and Daniele Loco and Siwar Badreddine and Baptiste Claudon and Félix Aviat and Marharyta Blazhynska and Kevin Gasperich and Guillaume Michel and Diata Traore and Corentin Villot and Thomas Plé and Olivier Adjoua and Louis Lagardère and Jean-Philip Piquemal},
+  journal = {arXiv preprint arXiv:2603.17790},
+  title = {The Convergence Frontier: Integrating Machine Learning and High Performance Quantum Computing for Next-Generation Drug Discovery},
+  url = {https://arxiv.org/abs/2603.17790},
+  year = {2026}
+}
+
+@article{traore2024shortcut,
+  author = {Traore, Diata and Adjoua, Olivier and Feniou, C{\'e}sar and Lygatsika, Ioanna-Maria and Maday, Yvon and Posenitskiy, Evgeny and Hammernik, Kerstin and Peruzzo, Alberto and Toulouse, Julien and Giner, Emmanuel and others},
+  journal = {Communications Chemistry},
+  number = {1},
+  pages = {269},
+  publisher = {Nature Publishing Group UK London},
+  title = {Shortcut to chemically accurate quantum computing via density-based basis-set correction},
+  volume = {7},
+  year = {2024}
 }
 
 @article{viswanathan2025optimal,
-  title={An Optimal Framework for Constructing Lie-Algebra Generator Pools: Application to Variational Quantum Eigensolvers for Chemistry},
-  author={Viswanathan, Yaromir and Adjoua, Olivier and Feniou, C{\'e}sar and Badreddine, Siwar and Piquemal, Jean-Philip},
-  journal={arXiv preprint arXiv:2511.22593},
-  year={2025}
+  author = {Viswanathan, Yaromir and Adjoua, Olivier and Feniou, C{\'e}sar and Badreddine, Siwar and Piquemal, Jean-Philip},
+  journal = {arXiv preprint arXiv:2511.22593},
+  title = {An Optimal Framework for Constructing Lie-Algebra Generator Pools: Application to Variational Quantum Eigensolvers for Chemistry},
+  year = {2025}
 }
